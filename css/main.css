@@ -1,0 +1,539 @@
+ /* Author: Carlos Alvarez
+ * URL: http://alvarez.is
+ *
+ * Project Name: Kelvin - Free Bootstrap 3 Resume Theme
+ * Version: 1.0
+ * URL: http://blacktie.co
+ */
+
+
+ /*
+blue backgound: 9dc6d8;
+pink: ffe3e3;
+gold:;
+
+ */
+
+body {
+  background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+}
+
+/* Titles */
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 300;
+    color: #333;
+    margin-bottom: 30px;  
+}
+
+
+/* Paragraph & Typographic */
+p {
+    line-height: 28px;
+  /*  margin-bottom: 25px; /* spacing??????? */
+  	margin-bottom: 20px;
+}
+
+
+q { 
+line-height:1.5em; 
+} 
+
+.centered {
+    text-align: center;
+}
+
+/* Links */
+a {
+    color: #f85c37;
+    word-wrap: break-word;
+
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+a:hover,
+a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+a:before,
+a:after {
+    -webkit-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -moz-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -ms-transition: color 0.1s ease-in, background 0.1s ease-in;
+    -o-transition: color 0.1s ease-in, background 0.1s ease-in;
+    transition: color 0.1s ease-in, background 0.1s ease-in;
+}
+
+ hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #ccc;
+    margin: 1em 0;
+    padding: 0;
+}
+
+
+
+
+
+
+
+
+
+
+/*---------------------------------------------------
+	3.1 Topbar
+---------------------------------------------------*/
+
+#section-topbar {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	z-index: 10000;
+	overflow: visible;
+	font: normal 16px/24px "Lato", 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+#section-topbar a {
+  color: #fff; /* color of icon */
+}
+
+#topbar-inner {
+	background: #111; /*#8DB2C2; /*#111;*/
+	opacity: 0.9;
+	line-height: 0;
+	text-align: center;
+}
+
+/*
+	Top Bar
+
+	By default, top navigation bar uses "fixed" position
+*/
+#section-topbar ul#nav {
+	display: inline-block;
+	position: relative;
+	margin: 0;
+	padding: 0;
+
+	border-right: 0px solid #ff9999; /* rightmost border */
+
+	/* For IE, the outcast */
+	zoom:1;
+	*display: inline;
+}
+
+#section-topbar ul#nav > li {
+	display: block;
+    float: left;
+    padding: 0;
+}
+
+
+#section-topbar ul#nav a {
+  display: block;
+  font: normal 11px/18px "Lato", "Webdings", Helvetica, Arial, sans-serif;
+  text-decoration: none;
+  padding: 10px 20px 10px 20px;
+  border-left: 0px solid #222;
+}
+
+	#section-topbar ul#nav a:hover {
+	  background: #ff9999;
+	  text-decoration: none;
+	  border-left: 0px solid #111;
+	}
+
+	#section-topbar ul#nav .active a {
+		background: #ff66aa;
+		border-left: 0px solid #ff66aa;
+	}
+
+		#section-topbar ul#nav .active a:hover {
+			background: #ff66aa;
+		}
+#section-topbar i {
+	font-size: 25px;
+}
+/*---------------------------------------------------
+	SECTION WRAPS
+---------------------------------------------------*/
+
+/* Header Wrap */
+#headerwrap {
+	background: url(../img/header-bg-5.png) no-repeat center top;
+	margin-top: 40px;  /* top bar background */
+	padding-top:140px;
+	text-align:center;
+	background-attachment: relative;
+	background-position: center center;
+	min-height: 500px;
+	width: 100%;
+	
+    -webkit-background-size: 100%;
+    -moz-background-size: 100%;
+    -o-background-size: 100%;
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#headerwrap h1 {
+	font-size: 80px;
+	color: #ffcccc; /*#ffc0e3; /*white;*/
+}
+
+#headerwrap h3 {
+	font-size: 20px;
+	color: #222222; /*#ffcccc; /*#ffc0e3; /*white;*/
+}
+
+/* Intnro Wrap */
+
+#intro {
+	background: #9dc6d8; /*#90c8f7; /*#6391b2; /* #2c3e50; */
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+} 
+
+#intro h5, p {
+	color: white;
+}
+
+#intro i {
+	color: white;
+	font-size: 20px;
+	padding-right: 8px;
+	vertical-align: middle;
+}
+
+
+
+
+/* portfolio */
+#port {
+  background: #f2f2f2; /*#90c8f7; /*#6391b2; /* #2c3e50; */
+  padding-top: 60px;
+  padding-bottom: 60px;
+  color: #cea676;
+  font-weight: 700;
+} 
+
+#port h5{
+  color: #2f2f2f;
+}
+
+#port h6{
+  color: #cea676;
+  padding-top: 10px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+#port p{
+  color: white;
+  font-weight: 100;
+  padding-bottom: 0px;
+  padding-top: 0px;
+}
+
+#port h4 {  /* space above (descriptoin) */
+  padding-top: 20px;
+  color: white;
+  font-weight: 700;
+  padding-bottom: 0px;
+}
+
+#port h3 {  /* no space above (language) */
+  font-size: 18px;
+  padding-top: 0px;
+  color: white;
+  font-weight: 700;
+  padding-bottom: 0px;
+}
+
+#port i {
+  color: #2f2f2f;
+  font-size: 20px;
+  padding-right: 8px;
+  vertical-align: middle;
+}
+
+
+
+
+
+#skillswrap {
+	background:  #f2f2f2; /*#9dc6d8; /*#90c8f7; /*#6391b2; /* #2c3e50; */
+	padding-top: 60px;
+	padding-bottom: 60px;
+	color: white;
+}
+
+#skillswrap h5, p {
+	color: white;
+}
+
+#footwrap {
+	background: #9dc6d8; /*#90c8f7; /*#6391b2; /* #2c3e50; */ /*#2f2f2f;*/
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+#footwrap p {
+	color: white;
+}
+
+
+
+#footwrap h5 {
+	color: white;
+}
+
+
+#footwrap t {
+	font-weight: 700;
+}
+
+#footwrap i {
+	font-size: 25px;
+	padding-right: 16px;
+	color: #ffe3e3; /*#1abc9c;*/
+}
+
+/* Copyright Wrap */
+
+#c {
+	background: #222222;
+	padding-top: 15px;
+	text-align: left;
+}
+
+#c div.container img{
+      display:inline-block;
+      vertical-align:bottom;
+        border:0;
+      text-align: center;
+    }
+
+
+#c p {
+	color: white
+}
+
+
+	/*TILT*/
+.tilt {
+  -webkit-transition: all 0.5s ease;
+     -moz-transition: all 0.5s ease;
+       -o-transition: all 0.5s ease;
+      -ms-transition: all 0.5s ease;
+          transition: all 0.5s ease;
+}
+ 
+.tilt:hover {
+  -webkit-transform: rotate(-10deg);
+     -moz-transform: rotate(-10deg);
+       -o-transform: rotate(-10deg);
+      -ms-transform: rotate(-10deg);
+          transform: rotate(-10deg);
+}
+
+
+/* Global Values */
+
+.desc {
+	padding-top: 50px;
+}
+
+.desc p {
+	color: #2f2f2f; /* main resume color */
+}
+
+.desc t {
+	color: #cea676; /*#34495e;*/
+	font-weight: 700;
+}
+
+.desc imp {
+	padding: 6px;
+	color: white;
+	background: #cea676; /*#34495e;*/
+}
+
+.desc more {
+	color: #95a5a6;
+}
+
+
+sm {
+	font-size: 12px;
+}
+
+/* ================== BASIC CONFIGURATION ================== */
+
+.spacing i {
+	padding-left: 8px;
+	padding-right: 8px
+}
+/* margin top & Bottom */
+.mt {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+/* Special Margin for Wrap sections */
+.mts {
+	margin-top: -20px;
+}
+
+
+/* service icons */
+.si {
+	visibility: hidden;
+}
+
+.si:hover {
+	background-color: #ffffff;
+}
+
+.si i {
+	font-size: 40px;
+	padding: 20px;
+}
+
+/* Padding top & bottom */
+.pt {
+	padding-top: 15px;
+	padding-bottom: 15px; 
+}
+
+
+
+
+/* Button Call To Action */
+.btn-cta {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.btn-cta:hover,
+.btn-cta:focus,
+.btn-cta:active,
+.btn-cta.active,
+.open .dropdown-toggle.btn-cta {
+  color: #2f2f2f;
+  background-color: #ffffff;
+  border-color: #2f2f2f;
+}
+
+/* Button Theme */
+.btn-theme {
+  color: #ffffff;
+  background-color: transparent;
+  border-color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.btn-theme:hover,
+.btn-theme:focus,
+.btn-theme:active,
+.btn-theme.active,
+.open .dropdown-toggle.btn-theme {
+  color: #2f2f2f;
+  background-color: #ffffff;
+  border-color: #2f2f2f;
+}
+
+/* Button Yellow */
+.btn-yellow {
+  color: #2f2f2f;
+  background-color: #ffd56c;
+  border-color: #ffffff;
+  font-family: "Lato", sans-serif;
+  font-size: 13px;
+  letter-spacing: 2px;
+  margin-bottom: 25px;
+}
+
+.btn-yellow:hover,
+.btn-yellow:focus,
+.btn-yellow:active,
+.btn-yellow.active,
+.open .dropdown-toggle.btn-yellow {
+  color: #2f2f2f;
+  background-color: #fdc741;
+  border-color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+/* ??? */
+#imageDiv {
+    background-image: url('something.jpg') no-repeat;
+    background-size: cover; /*or 'contain' depending on your needs*/
+}
+
+
+
+
+
+
+.progress .progress-bar.six-sec-ease-in-out {
+    -webkit-transition: width 6s ease-in-out;
+    -moz-transition: width 6s ease-in-out;
+    -ms-transition: width 6s ease-in-out;
+    -o-transition: width 6s ease-in-out;
+    transition: width 6s ease-in-out;
+}
+
+
+/* SOURCE: http://stackoverflow.com/questions/21396214/how-to-add-text-next-to-progress-bar-bootstrap */
+.progress-label {
+    float: left;
+    margin-right: 2em;
+    margin-top: 1em;
+}
+
+.progress {background: rgba(250, 250, 250, 1); border: 0px solid rgba(245, 245, 245, 1); border-radius: 15px; height: 20px;}
+.progress-bar-custom {background: rgba(255, 227, 227, 1); 
+
+
+
+
+
+
