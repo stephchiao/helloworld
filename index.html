@@ -1,28 +1,884 @@
 <!DOCTYPE html>
-<html>
-	<head>
-		<title>Hank Quinlan, Horrible Cop</title>
-	</head>
-	<body>
-		<nav>
-    		<ul>
-        		<li><a href="/">Home</a></li>
-	        	<li><a href="/about">About</a></li>
-        		<li><a href="/cv">CV</a></li>
-        		<li><a href="/blog">Blog</a></li>
-    		</ul>
-		</nav>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="assets/ico/favicon.gif">
+
+
+    <title>Stephanie Chiao</title>
+
+    <link href="assets/css/hover_pack.css" rel="stylesheet">
+
+    <!-- Bootstrap core CSS -->
+    <link href="assets/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+ <!--  <link href="assets/css/main.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <link href="assets/css/main.css" rel="stylesheet">
+    <link href="assets/css/colors/color-74c9be.css" rel="stylesheet">    
+    <link href="assets/css/animations.css" rel="stylesheet">
+ <!--   <link href="assets/css/font-awesome.min.css" rel="stylesheet"> -->
+
+
+    
+	<link rel="stylesheet" href="assets/css/font-awesome.min.css">
+    
+    <link href='http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Raleway:400,300,700' rel='stylesheet' type='text/css'>
+    
+    <script src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/smoothscroll.js"></script> 
+    <script src="assets/js/Chart.js"></script>
+	<script type="text/javascript">
+			var bar = $('.value-bar');
+		$(function(){
+		  $(bar).each(function(){
+		    bar_width = $(this).attr('aria-valuenow');
+		    $(this).width(bar_width + '%');
+		  });
+		});
+	</script>
+
+	<script type="text/javascript">
+	$(window).ready(function(e){
+      $.each($('div.progress-bar'),function(){
+        $(this).css('width', $(this).attr('aria-valuetransitiongoal')+'%');
+      });
+});
+	</script>
+
+
+<!-- Main Jquery & Hover Effects. Should load first -->
+    <script src="https://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="assets/js/hover_pack.js"></script>
+
+
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="assets/js/html5shiv.js"></script>
+      <script src="assets/js/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body data-spy="scroll" data-offset="0" data-target="#nav">
+
+
+
+
+	<div id="section-topbar">
+		<div id="topbar-inner">
+			<div class="container">
+				<div class="row">
+					<div class="dropdown">
+						<ul id="nav" class="nav">
+							<li class="menu-item"><a class="smoothScroll" href="#about" title="About"><i class="icon-cloud"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#resume" title="Resume"><i class="icon-edit"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#work" title="Works"><i class="icon-desktop"></i></a></li>
+							<li class="menu-item"><a class="smoothScroll" href="#contact" title="Contact"><i class="icon-phone"></i></a></li>
+						</ul><!--/ uL#nav -->
+					</div><!-- /.dropdown -->
+
+					<div class="clear"></div>
+				</div><!--/.row -->
+			</div><!--/.container -->
+
+			<div class="clear"></div>
+		</div><!--/ #topbar-inner -->
+	</div><!--/ #section-topbar -->
+	
+
+
+	
+
+	<div id="headerwrap">
 		<div class="container">
-    		<div class="blurb">
-        		<h1>Hi there, I'm Hank Quinlan!</h1>
-				<p>I'm best known as the horrible cop from <em>A Touch of Evil</em> Don't trust me. <a href="/about">Read more about my life...</a></p>
-    		</div><!-- /.blurb -->
-		</div><!-- /.container -->
-		<footer>
-    		<ul>
-        		<li><a href="mailto:hankquinlanhub@gmail.com">email</a></li>
-        		<li><a href="https://github.com/hankquinlan">github.com/hankquinlan</a></li>
-			</ul>
-		</footer>
-	</body>
+			<div class="row centered">
+				<div class="col-lg-12">
+					<h1>Stephanie Chiao</h1>
+					<h3>Princess of Hades | schiao@bu.edu</h3>
+				</div><!--/.col-lg-12 -->
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/.#headerwrap -->  
+
+
+
+
+	<section id="about" name="about"></section>
+	<div id="intro">
+		<div class="container">
+			<div class="row">
+				
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>ABOUT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p>I'm computer science major at Boston University & professional singer with 12 years of professional experience. I'm interested in all kinds of dogs, but my major focus is on corgis, mini poodles & aardvarks. I also have skills in other fields like dancing, painting or web development.</p>
+				</div>
+				<div class="col-lg-3">
+					<p><a href="#"><i class="icon-file"></i></a> <sm>DOWNLOAD PDF</sm></p>
+				</div>
+				
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #intro -->
+
+
+	<section id="resume" name="resume"></section>
+	<!--EDUCATION DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EDUCATION</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Boston University</t><br/>
+						B.A. in Computer Science (anticipated) <br/>
+						<i>2017</i>  
+					</p>
+					<div class="col-lg-6 col-lg-offset-1">
+						RELEVENT COURSEWORK<br/>
+						<p><more>Introduction to Computer Science I<br>
+							Introduction to Computer Science II<br>
+							Combinatoric Structures<br>
+							Linear Algebra<br>
+							Computer Systems<br></more></p>
+					</p>
+					</div>
+				</div>
+				<div class="col-lg-3">
+				<!--	<p><sm>GRADUATING IN 2017</sm><br/> -->
+					<imp><sm>IN PROGRESS</sm></imp>
+					</p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Lincoln Sudbury Regional High School</t><br/>
+						High School Diploma <br/>
+						<i>May 2013</i>
+					</p>
+				</div>
+				<div class="col-lg-3">
+			<!--		<p><sm>JUNE 2012</sm></p> -->
+				</div>
+	
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+	
+	
+	<!--WORK DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>WORK</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>SAT Co-Coach</t><br/>
+						Let's Get Ready <br/>
+					<more>Coached a group of seven students to help improve their SAT score and prepare their college applications.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2013 - AUGUST 2013</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Sales Associate</t><br/>
+						Abercrombie <br/>
+					<more>Maintain the stockroom, help keep track of inventory, prepare items for the sales floor, and greet and assist customers.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2013 - MAY 2015</sm></p>
+				</div>
+
+		<!--		<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Server</t><br/>
+						Rosie's Place <br/>
+					</p>
+					<p><more>Work with a volunteer team during meal times to prepare and serve food, while providing a comfortable and nourishing environment for women in need.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2014 - PRESENT</sm></p>
+				</div>     -->
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Principle Zhong Ruan Player</t><br/>
+						GBCCA Chinese Music Ensemble <br/>
+					<more>Performed at educational seminars and fundraisers. Engagements include: Carnegie Hall, TEDxBoston, Jordan Hall, Boston Children's Museum, and Peabody Essex Museum.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2009 - JUNE 2014</sm></p>
+				</div>
+
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Advertisement Designer</t><br/>
+						Asian Women's Health Initiative Project <br/>
+					<more>Took photographs and created promotional and recruitment material for a Boston University research group.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>JUNE 2014, MAY 2015</sm></p>
+				</div>
+		</div><!--/.row -->
+		<br>
+		<hr>
+	</div><!--/.container -->
+
+
+	<!--EXTRACURRICULAR DESCRIPTION -->
+	<div class="container desc">
+		<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>EXTRACURRICULAR</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Open Web</t><br/>
+					<more>Work in a team of twelve people to create a website for the Liberian Education Fund. Learned html and CSS.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SEPTEMBER 2014 - DECEMBER 2014</sm></p>
+				</div>
+	
+				<div class="col-lg-6 col-lg-offset-3">
+					<p><t>Global App Initiative</t></br>
+						<more>Worked in a team of eight people to create an app for Magis using Swift.</more></p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SEPTEMBER 2014 - DECEMBER 2014</sm></p>
+				</div>
+		
+		</div><!--/.row --> 
+		<br>
+		
+	</div><!--/.container -->
+
+	<!--SKILLS DESCRIPTION -->
+<!--	<div id="intro"> -->
+<div id="intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>SKILLS</h5>
+				</div>
+
+<!--
+<div class="col-lg-9">
+<p>A basic Progress Bar with vertical gradient</p>  
+<div class="progress">  
+<div class="bar" style="width: 60%;"></div>  
+</div>  
+</div>
+
+<div class="col-lg-9 col-lg-offset-3">
+<p>A basic Progress Bar with vertical gradient</p>  
+<div class="progress">  
+<div class="bar" style="width: 60%;"></div>  
+</div>  
+</div> -->
+
+
+
+<!-- LONG ONES 
+
+				<div class="col-lg-9">
+					<p>Java</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<p>C</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<p>Matlab</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<p>html</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<p>CSS</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<p>Microsoft Office</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<p>Photoshop</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<p>Chinese</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+			-->
+
+
+			<div class="col-lg-3">
+					<p>Java</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 80%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3">
+					<p>Matlab</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+					
+
+				<div class="col-lg-3">
+					<p>Microsoft Office</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+					
+
+				<div class="col-lg-3 col-lg-offset-3">
+					<p>Python</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+					
+		
+
+				<div class="col-lg-3">
+					<p>html</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-3">
+					<p>Photoshop</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+					
+
+				<div class="col-lg-3 col-lg-offset-3">
+					<p>C</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+					
+
+				<div class="col-lg-3">
+					<p>CSS</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+					
+
+				<div class="col-lg-3">
+					<p>Chinese</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+							<span class="sr-only">80% Complete</span>
+						</div>
+					</div>
+				</div>
+
+
+
+
+<!-- only works with fatter bars
+				<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p>C</p>
+				</div>
+				<div class="col-lg-8">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+							<span class="sr-only">40% Complete</span>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p>Matlab</p>
+				</div>
+				<div class="col-lg-8">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 40%;">
+							<span class="sr-only">40% Complete</span>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p>html</p>
+				</div>
+				<div class="col-lg-8">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+							<span class="sr-only">20% Complete</span>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p>CSS</p>
+				</div>
+				<div class="col-lg-8">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+							<span class="sr-only">20% Complete</span>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p>Photoshop</p>
+				</div>
+				<div class="col-lg-8">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p>Chinese</p>
+				</div>
+				<div class="col-lg-8">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+							<span class="sr-only">20% Complete</span>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p>Microsoft Office</p>
+				</div>
+				<div class="col-lg-8">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+					<br>
+				</div>
+
+				
+
+		<!--		<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p>gomp</p>
+				</div> -->
+		<!--		<div class="col-lg-9 col-lg-offset-3">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p>Photoshop</p>
+				</div>
+				<div class="col-lg-8">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+				</div> -->
+
+		<!--		<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p>yaye</p>
+				</div> -->
+		<!--		<div class="col-lg-8">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-1 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p class="progress-label">Y</p>
+				</div>
+				<div class="col-lg-8 col-lg-offset-4">
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+				</div> -->
+
+<!--
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p class="progress-label">Photoshop</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p class="progress-label">Gimp</p>
+					
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+				</div>
+
+				<div class="col-lg-9 col-lg-offset-3">
+					<canvas id="wordpress" height="10" width="130"></canvas>
+					<p class="progress-label">Gimp</p>
+					<div class="progress">
+						<div class="progress-bar progress-bar-custom" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%;">
+							<span class="sr-only">60% Complete</span>
+						</div>
+					</div>
+				</div>
+-->
+
+
+					
+
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
+
+
+
+	<!-- PORTFOLIO SECTION -->
+<!--	<div class="container desc">
+	
+	<div id="dg">
+		<div class="container">
+			<div class="row centered">
+				<h4>RELEVENT PROJECTS</h4>
+				<br>
+				<div class="col-lg-4">
+					<div class="tilt">
+					<a href="#"><img src="assets/img/p01.gif" alt=""></a>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="tilt">
+					<a href="#"><img src="assets/img/p02.gif" alt=""></a>
+					</div>
+				</div>
+
+				<div class="col-lg-4">
+					<div class="tilt">
+					<a href="#"><img src="assets/img/p03.png" alt=""></a>
+					</div>
+				</div>
+			</div><!-- row -->
+<!--		</div><!-- container -->
+<!--	</div><!-- DG -->
+	
+<!--</div> -->
+
+	<! ========== PORTFOLIO SECTION ============================================================================================= 
+	=============================================================================================================================> 
+	<!-- from black tie Marco theme -->   
+<section id="work" name="work"></section>
+<div id="port">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>RELEVENT PROJECTS</h5>
+				</div>
+
+
+
+				<div class="row mt centered">	
+			<div class="col-lg-4 desc">
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/break.gif" alt="" />
+					<div class="b-wrapper">
+					  	<p class="b-from-left b-animate b-delay03"><br><br><b>Description:</b><br>Recreate the classic game of Breakout<br>using Java's graphics API and the basics of<br>object oriented programming.</p>
+					  	<p class="b-from-right b-animate b-delay03"><b>Language Used:</b><br>Java</p>
+					</div>
+				</a>
+				<h6>Breakout</h6>
+			</div>
+			<div class="col-lg-4 desc">
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/connect.gif" alt="" />
+					<div class="b-wrapper">
+					  	<p class="b-from-left b-animate b-delay03"><br><br><br><b>Description:</b><br>Uses alpha beta pruning to search a tree of<br>possible plays to make the best move.</p>
+					  	<p class="b-from-right b-animate b-delay03"><b>Language Used:</b><br>Java</p>
+					</div>
+				</a>
+				<h6>Connect 4 API</h6>
+			</div>
+		</div>
+
+		<div class="row mt centered">	
+			<div class="col-lg-4 col-lg-offset-3 desc">
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/minigoogle.gif" alt="" />
+					<div class="b-wrapper">
+					  	<p class="b-from-left b-animate b-delay03"><br><br><br><br><b>Description:</b><br>Searches a sample database and finds the<br>best match to a user input using linked lists<br>and cosine similarity.</p>
+					  	<p class="b-from-right b-animate b-delay03"><b>Language Used:</b><br>Java</p>
+					</div>
+				</a>
+				<h6>Mini Google</h6>
+			</div>
+			<div class="col-lg-4 desc">
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/row.gif" alt="" />
+					<div class="b-wrapper">
+					  	<p class="b-from-left b-animate b-delay03"><br><br><br><br><b>Description:</b><br>A program that reduces an input matrix into<br>row echelon form using Gaussian elimination.</p>
+					  	<p class="b-from-right b-animate b-delay03"><b>Language Used:</b><br>Python</p>
+					</div>
+				</a>
+				<h6>Row Echelon Reducer</h6>
+			</div>
+		</div>
+
+
+			</div><!--/.row -->
+			<br>
+		</div><!--/.container -->
+	</div><!--/ #skillswrap -->
+
+
+
+<!--
+	<div class="container">
+		<div class="row mt centered ">
+			<div class="col-lg-4 col-lg-offset-4">
+				<h3>Our Latest Work</h3>
+				<hr>
+			</div>
+		</div>
+		<div class="row mt centered">	
+			<div class="col-lg-4 desc">
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/breakout.gif" alt="" />
+					<div class="b-wrapper">
+					  	<h4 class="b-from-left b-animate b-delay03">Project 1</h4>
+					  	<p class="b-from-right b-animate b-delay03">View Details</p>
+					</div>
+				</a>
+				<p>APE - <i class="fa fa-heart-o"></i></p>
+			</div>
+			<div class="col-lg-4 desc">
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/breakout_desktop.gif" alt="" />
+					<div class="b-wrapper">
+					  	<h4 class="b-from-left b-animate b-delay03">Project 2</h4>
+					  	<p class="b-from-right b-animate b-delay03">View Details</p>
+					</div>
+				</a>
+				<p>RAIDERS - <i class="fa fa-heart-o"></i></p>
+			</div>
+			<div class="col-lg-4 desc">
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/waters.jpg" alt="" />
+					<div class="b-wrapper">
+					  	<h4 class="b-from-left b-animate b-delay03">Project 3</h4>
+					  	<p class="b-from-right b-animate b-delay03">View Details</p>
+					</div>
+				</a>
+				<p>VIKINGS - <i class="fa fa-heart-o"></i></p>
+			</div>
+		</div>
+		<div class="row mt centered">	
+			<div class="col-lg-4 desc">
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/breakout2.gif" alt="" />
+					<div class="b-wrapper">
+					  	<h4 class="b-from-left b-animate b-delay03">Project 4</h4>
+					  	<p class="b-from-right b-animate b-delay03">View Details</p>
+					</div>
+				</a>
+				<p>APE - <i class="fa fa-heart-o"></i></p>
+			</div>
+			<div class="col-lg-4 desc">
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/connect4.gif" alt="" />
+					<div class="b-wrapper">
+					  	<h4 class="b-from-left b-animate b-delay03">Project 5</h4>
+					  	<p class="b-from-right b-animate b-delay03">View Details</p>
+					</div>
+				</a>
+				<p>RAIDERS - <i class="fa fa-heart-o"></i></p>
+			</div>
+			<div class="col-lg-4 desc">
+				<a class="b-link-fade b-animate-go" href="#"><img width="350" src="assets/img/portfolio/port02.jpg" alt="" />
+					<div class="b-wrapper">
+					  	<h4 class="b-from-left b-animate b-delay03">Project 6</h4>
+					  	<p class="b-from-right b-animate b-delay03">View Details</p>
+					</div>
+				</a>
+				<p>VIKINGS - <i class="fa fa-heart-o"></i></p>
+			</div>
+		</div>
+		<div class="row mt centered">
+			<div class="col-lg-4 col-lg-offset-4">
+    			<button type="button" class="btn btn-theme btn-lg">VIEW OUR PORTFOLIO</button>
+			</div>
+		</div>
+	</div>
+	
+	-->
+
+
+	
+		
+
+
+	<section id="contact" name="contact"></section>
+	<!--FOOTER DESCRIPTION -->
+	<div id="footwrap">
+		<div class="container">
+			<div class="row">
+			
+				<div class="col-lg-2 col-lg-offset-1">
+					<h5>CONTACT</h5>
+				</div>
+				<div class="col-lg-6">
+					<p><t>Email</t><br/>
+						schiao@bu.edu <br/>
+					</p>
+				<!--	<p><t>Adress</t><br/>
+						Some Ave. 987 <br/>
+						Postal 23892 <br/>
+						London, England. <br/>
+					</p> -->
+					<p><t>Phone</t><br/>
+						(508) 308-9317 <br/>
+					</p>
+				</div>
+				<div class="col-lg-3">
+					<p><sm>SOCIAL LINKS</sm></p>
+					<p>
+						<a href="https://github.com/stephchiao"><i class="icon-github"></i></a>
+						<a href="https://www.linkedin.com/in/stephchiao"><i class="icon-linkedin"></i></a>
+
+					</p>
+				</div>
+			</div><!--/.row -->
+		</div><!--/.container -->
+	</div><!--/ #footer -->
+	
+	<div id="c">
+		<div class="container">
+			<!--<p>Created by <a href="http://www.blacktie.co">BLACKTIE.CO</a></p> -->
+			<div class="row">
+			<div class="col-lg-11 col-lg-offset-1">
+			<p><b>ABOUT</b>&nbsp;&nbsp;&nbsp;&nbsp;I love cats and dogs and any type of ramen that isn't spicy.</p>
+		</div>
+			<div class="col-lg-11 col-lg-offset-1">
+				<p>Copyright &copy 2015 Stephanie Chiao</p>
+			</div>
+		</div>
+	</div>
+
+		<center><img class="container" src="assets/img/footer.png" alt=""></center>
+	</div>
+	
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/bootstrap.js"></script>
+  </body>
 </html>
+
+
+
+
