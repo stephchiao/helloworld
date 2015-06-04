@@ -207,6 +207,7 @@ a:after {
 	color: #222222; /*#ffcccc; /*#ffc0e3; /*white;*/
 }
 
+
 /* Intnro Wrap */
 
 #intro {
@@ -220,11 +221,32 @@ a:after {
 	color: white;
 }
 
+#intro p {
+  color: white;
+}
+
+#intro t {
+  color: white;
+}
+
+
+#intro more {
+  color: white;
+}
+
 #intro i {
 	color: white;
-	font-size: 20px;
+	font-size: 16px;
 	padding-right: 8px;
 	vertical-align: middle;
+}
+
+#intro imp {
+  padding: 6px;
+  color: white;
+  background: #eec3c3; /*#34495e;*/
+  font-weight: 800;
+  /* text-shadow: 1px 1px #ff0000;*/
 }
 
 
@@ -385,9 +407,17 @@ a:after {
 	color: #95a5a6;
 }
 
+.icon-file {
+  color: #4c4c4c;
+}
+
 
 sm {
 	font-size: 12px;
+}
+
+med {
+  font-size: 16px;
 }
 
 /* ================== BASIC CONFIGURATION ================== */
